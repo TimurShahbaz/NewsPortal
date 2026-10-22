@@ -8,7 +8,7 @@ class modelAdminCategory{
         //$rows = массив данных
         $rows = $db->getAll($sql);
         //------------------------------------------
-        return rows;
+        return $rows;
     }
 
 }//class
